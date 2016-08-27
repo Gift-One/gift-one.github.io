@@ -1,0 +1,31 @@
+# visit https://github.com/gift-one/gift-one.github.io for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+rouge: highlighter
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: gift-one的空间
+
+description: gift-one的空间
+author:
+  name: gift-one
+  email: 870546031@qq.com
+  github: gift-one
+  wechat: gift-one
+  qq: 870546031
+  linkedin: 
+  bio: gift-one的空间
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
+
+markdown: kramdown
